@@ -1,0 +1,10 @@
+
+
+
+.answers.valid .validation .correct {
+    display:block !important;
+}
+
+.answers.invalid .validation .incorrect {
+    display:block !important;
+}

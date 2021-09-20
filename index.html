@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
     <div class='timer_container'>
@@ -18,15 +19,41 @@
         <div id='question_one' class="quiz_question">
             <p class='question_title'>What is question 1?</p>
             <div class='answers'>
-                <button class='answer_button answer_one'><span>answer</span></button>
-                <button class='answer_button answer_two'><span>answer</span></button>
-                <button class='answer_button answer_three'><span>answer</span></button>
-                <button class='answer_button answer_four'><span>answer</span></button>
-            </div>
-            <div class='validation'>
-                <p class='correct'>Correct!</p>
-                <p class='incorrect'>Incorrect!</p>
-            </div>
+                <button class='answer_button answer_one' value="0"><span>answer</span></button>
+                <button class='answer_button answer_two' value="1"><span>answer</span></button>
+                <button class='answer_button answer_three' value="0"><span>answer</span></button>
+                <button class='answer_button answer_four' value="0"><span>answer</span></button>
+                <div class='validation'>
+                    <p class='correct' style='display: none;'>Correct!</p>
+                    <p class='incorrect' style='display: none;'>Incorrect!</p>
+                </div>
+            </div> 
+        </div>
+        <div id='question_two' class="quiz_question">
+            <p class='question_title'>What is question 2?</p>
+            <div class='answers'>
+                <button class='answer_button answer_one' value="1"><span>answer</span></button>
+                <button class='answer_button answer_two' value="0"><span>answer</span></button>
+                <button class='answer_button answer_three' value="0"><span>answer</span></button>
+                <button class='answer_button answer_four' value="0"><span>answer</span></button>
+                <div class='validation'>
+                    <p class='correct' style='display: none;'>Correct!</p>
+                    <p class='incorrect' style='display: none;'>Incorrect!</p>
+                </div>
+            </div> 
+        </div>
+        <div id='question_three' class="quiz_question">
+            <p class='question_title'>What is question 3?</p>
+            <div class='answers'>
+                <button class='answer_button answer_one' value="0"><span>answer</span></button>
+                <button class='answer_button answer_two' value="0"><span>answer</span></button>
+                <button class='answer_button answer_three' value="1"><span>answer</span></button>
+                <button class='answer_button answer_four' value="0"><span>answer</span></button>
+                <div class='validation'>
+                    <p class='correct' style='display: none;'>Correct!</p>
+                    <p class='incorrect' style='display: none;'>Incorrect!</p>
+                </div>
+            </div> 
         </div>
     </div>
     
